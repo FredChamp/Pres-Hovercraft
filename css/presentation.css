@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter);
+@import url(http://fonts.googleapis.com/css?family=Armata);
+
+body {
+    background: #14282C;
+    color: #60959F;
+    font-family: 'Armata', sans-serif;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-family: 'Bitter' , serif;
+    font-weight: bold;
+    text-italic: none;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: 'Bitter', serif;
+}
+
+blockquote {
+    font-family: 'Bitter', serif;
+    font-style: italic;
+}
+
+a, em {
+    color: #91C5CF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
