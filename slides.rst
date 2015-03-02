@@ -15,11 +15,10 @@ First title
 
 *March, 2nd 2015*
 
-
 ----
 
 Basic slide
-========
+===============================
 
 Goal : 
 ------------
@@ -37,9 +36,9 @@ Video integration test
           <source src="media/arflex/ARFlex_HospitalVideo.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video> 
+
 ----
 
 That's all folks!
 =================
-
 
