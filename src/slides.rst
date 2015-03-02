@@ -1,5 +1,5 @@
 :title: Basic example
-:data-transition-duration: 1500
+:data-transition-duration: 1250
 :author: Frederic CHAMP
 :description: Basic hovercraft example
 :keywords: presentation
@@ -17,6 +17,8 @@ First title
 
 ----
 
+:data-rotate-z: 90
+
 Basic slide
 ===============================
 
@@ -26,6 +28,10 @@ Goal :
 - Nam quod de pietate dixistis, est quidem ista nostra existimatio, sed iudicium certe parentis; quid nos opinemur, audietis ex iuratis.
 
 ----
+
+:data-rotate-x: 45
+:data-scale: 2
+:data-y: 3000
 
 Video integration test
 ===============================
@@ -38,6 +44,9 @@ Video integration test
         </video> 
 
 ----
+
+:data-x: -1000
+:data-scale: 1/2
 
 That's all folks!
 =================
