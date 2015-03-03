@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Bitter);
 @import url(http://fonts.googleapis.com/css?family=Armata);
 
+
 body {
     background: #6F8197;
     color: #f0f2f4;
@@ -25,7 +26,7 @@ blockquote {
 }
 
 a, em {
-    color: #91C5CF;
+    color: #1c375b;
     text-decoration: none;
     font-weight: bold;
 }
@@ -34,3 +35,26 @@ video {
     display: block;
     margin: 0 auto;
 }
+
+#circle {
+    width: 900px;
+    height: 900px;
+    border:1px solid #DDD;
+    -moz-border-radius: 500px;
+    -webkit-border-radius: 500px;
+    border-radius: 500px;
+    text-align: center;
+}
+
+#square {
+    width: 1600px;
+    height: 900px;
+    border:1px solid #DDD;
+    border-radius:0px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    
+    text-align: center;
+}
+
+
