@@ -6,6 +6,9 @@
 :css: css/presentation.css
 :skip-help: true
 
+.. role:: circle
+   :class: circle
+   
 ----
 
 :id: circle
@@ -28,37 +31,15 @@ JDEV2015
 
 ----
 
-
 :data-rotate-y: -90
 :data-x: r2000
 
-Le NDK
-------------
+.. raw:: html
 
-Développement d'application Android en utilisant du code dit "natif" (C/C ++).
+    An CSS triangle pointing down:
+    <span class="delta_down"></span><br>
+    An CSS triangle pointing up:
+    <span class="delta_up"></span><br>
+    An CSS Circle:
+    <span class="circle"></span><br>
 
-Contient égalament des "header system":
- - **libc** (C library) headers
- - **libm** (math library) headers
- - **JNI interface headers**
- - **libz** (Zlib compression) headers
- - **liblog** (Android logging) header
- - **OpenGL ES 1.1 and OpenGL ES 2.0 (3D graphics libraries) headers**
- - **libjnigraphics** (Pixel buffer access) header (for Android 2.2 and above).
- - **A Minimal set of headers for C++ support**
- - **OpenSL ES** native audio libraries
- - **Android native application APIS**
- 
-----
-
-:data-x: r2000
-
-Développement Android avancé
-===========================================
-
-JDEV2015 
-------------
-
-**Frederic CHAMP**
-
-*March, 2nd 2015*

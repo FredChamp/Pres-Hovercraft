@@ -39,7 +39,7 @@ video {
 #circle {
     width: 900px;
     height: 900px;
-    border:1px solid #DDD;
+    border:1px solid #DDD;‡
     -moz-border-radius: 500px;
     -webkit-border-radius: 500px;
     border-radius: 500px;
@@ -49,12 +49,56 @@ video {
 #square {
     width: 1600px;
     height: 900px;
+    background: light-gray;
     border:1px solid #DDD;
     border-radius:0px;
     -webkit-border-radius:0px;
     -moz-border-radius:0px;
-    
-    text-align: center;
+
 }
 
+.element {
+	float: left;
+	height: 1000;
+	width: 1000;
+	shape-outside: circle();
+}
+
+
+span.delta_down {
+        border-color: #C0C0C0 transparent transparent;
+        border-style: solid dashed dashed;
+        border-width: 10px 10px 0;
+        display: inline-block;
+        font-size: 0;
+        height: 0;
+        line-height: 0;
+        padding-top: 1px;
+        position: relative;
+        top: -1px;
+        width: 0;
+}
+
+span.delta_up {
+        border-color: transparent transparent #C0C0C0;
+        border-style: dashed dashed solid;
+        border-width: 0 10px 10px;
+        display: inline-block;
+        font-size: 0;
+        height: 0;
+        line-height: 0;
+        padding-top: 1px;
+        position: relative;
+        top: -1px;
+        width: 0;
+}
+
+span.circle {
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        background-color: #C0C0C0;
+        position: relative;
+}
 
