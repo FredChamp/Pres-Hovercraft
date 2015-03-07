@@ -2,9 +2,11 @@
 @import url(http://fonts.googleapis.com/css?family=Armata);
 
 
+/****** Global style ******/
+
 body {
-    background: #6F8197;
-    color: #f0f2f4;
+    background: #f2f2f2;
+    color: #a4a4a4;
     font-family: 'Armata', sans-serif;
     font-size: 1.5em;
 }
@@ -14,6 +16,7 @@ h1 {
     font-weight: bold;
     text-italic: none;
     font-size: 2em;
+    text-align: center;
 }
 
 h2 {
@@ -25,8 +28,16 @@ blockquote {
     font-style: italic;
 }
 
-a, em {
-    color: #1c375b;
+/* hypertext link */ 
+a {
+    color: #a8a9aa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* emphase */
+em {
+    color: #7e0035;
     text-decoration: none;
     font-weight: bold;
 }
@@ -36,69 +47,127 @@ video {
     margin: 0 auto;
 }
 
-#circle {
+/****** Slide styles ******/
+
+#first_slide {
     width: 900px;
     height: 900px;
-    border:1px solid #DDD;‡
-    -moz-border-radius: 500px;
-    -webkit-border-radius: 500px;
+    border:1px solid #a4a4a4;
     border-radius: 500px;
     text-align: center;
 }
 
-#square {
-    width: 1600px;
+#circle-no-background {
+    width: 900px;
     height: 900px;
-    background: light-gray;
+    border:1px solid #a4a4a4;
+    border-radius: 500px;
+    text-align: center;
+}
+
+#circle-background {
+    width: 900px;
+    height: 900px;
+    background: #e8e8e8;
+    border:1px solid #a4a4a4;
+    border-radius: 500px;
+    text-align: center;
+}
+
+#square-no-background {
+    width: 900px;
+    height: 600px;
+    border:1px solid #a4a4a4;
+    border-radius:0px;
+    position: relative;
+
+}
+
+#square-background {
+    width: 900px;
+    height: 600px;
+    background: #e8e8e8;
     border:1px solid #DDD;
     border-radius:0px;
-    -webkit-border-radius:0px;
-    -moz-border-radius:0px;
+    position: relative;
 
 }
 
-.element {
-	float: left;
-	height: 1000;
-	width: 1000;
-	shape-outside: circle();
+/****** Text styles ******/
+
+.red {
+    color: red;
 }
 
+/* doesn't work... */
+.align-center {
+    text-align: center;
+} 
+
+.align-center {
+    text-align: center;
+} 
+
+/****** CSS shapes ******/
+
+span.delta_right {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #C0C0C0;
+    font-size: 0;
+    
+    position: relative;
+    top: -7px;
+
+}
 
 span.delta_down {
-        border-color: #C0C0C0 transparent transparent;
-        border-style: solid dashed dashed;
-        border-width: 10px 10px 0;
-        display: inline-block;
-        font-size: 0;
-        height: 0;
-        line-height: 0;
-        padding-top: 1px;
-        position: relative;
-        top: -1px;
-        width: 0;
+     width: 0;
+     height: 0;
+     border-style: solid; /* dashed dashed; */
+     border-width: 10px 10px 0;
+     border-color: #C0C0C0 transparent transparent;
+     font-size: 0;
+     
+     position: relative;
+     top: -5px;
+     /*display: inline-block;
+     height: 0;
+     line-height: 0;
+     padding-top: 1px;
+     position: relative;
+     
+     width: 0; */
 }
 
 span.delta_up {
-        border-color: transparent transparent #C0C0C0;
-        border-style: dashed dashed solid;
-        border-width: 0 10px 10px;
-        display: inline-block;
-        font-size: 0;
-        height: 0;
-        line-height: 0;
-        padding-top: 1px;
-        position: relative;
-        top: -1px;
-        width: 0;
+    width: 0;
+    height: 0;
+    border-style: solid; /* dashed dashed; */
+    border-width: 0 10px 10px;
+    border-color: transparent transparent #C0C0C0;
+    font-size: 0;
+    
+    position: relative;
+    top: -10px;
+    /*display: inline-block;
+    height: 0;
+    line-height: 0;
+    padding-top: 1px;
+    position: relative;
+    top: -1px;
+    width: 0; */ 
 }
 
 span.circle {
-        border-radius: 50%;
-        width: 30px;
-        height: 30px;
-        display: inline-block;
-        background-color: #C0C0C0;
-        position: relative;
+     border-radius: 50%;
+     width: 20px;
+     height: 20px;
+     display: inline-block;
+     background-color: #C0C0C0;
+     position: relative;
+     top: 2px;
 }
 
