@@ -5,7 +5,9 @@
 :keywords: presentation
 :css: css/presentation.css
 :skip-help: true
-   
+
+.. role:: bordeaux
+
 ----
 
 :id: first_slide
@@ -42,7 +44,7 @@ Let's make some test :)
 Slide styles
 ========================================
 
-The difference with a classic presentation that's you can have different *slide styles* ...
+The difference with a classic presentation that's you can have different :bordeaux:`slide styles` ...
 
 ----
 
@@ -59,8 +61,8 @@ The difference with a classic presentation that's you can have different *slide 
 Look that !
 ========================================
 
-A *circle* shape :)
--------------------------
+A :bordeaux:`circle` shape :)
+-----------------------------
 
 ----
 
@@ -77,8 +79,8 @@ A *circle* shape :)
 Look again !
 ========================================
 
-A *circle* shape with *background* :)
--------------------------------------
+A :bordeaux:`circle` shape with :bordeaux:`background` :)
+---------------------------------------------------------
 
 ----
 
@@ -96,11 +98,15 @@ Ok, I have something for you... :)
 
 :id: square-no-background
 
-Do you like it ?
+|
+|
+|
+
+Do you like this ?
+
+A :bordeaux:`square` shaped slide ;)
 ========================================
 
-A *square* shaped slide ;)
---------------------------
 
 ----
 
@@ -108,34 +114,86 @@ A *square* shaped slide ;)
 
 :id: square-background
 
-Or maybe you prefer this
-========================================
+|
+|
+|
 
-A *square* slide with *background* ;)
--------------------------------------
+Or maybe you prefer this:
+
+A :bordeaux:`square` slide with :bordeaux:`background` ;)
+=========================================================
 
 ----
 
-:data-x: r2000
+:data-rotate-x: 90
+:data-y: r2000
 
-.. role:: red
+Ready for the next step ?
 
-Test 2
+Let's add some pretty stuffs :)
 ========================================
 
-CSS shapes
--------------------------
+----
 
-**text color**: :red:`red`
-    
+:data-y: r2000
+
+CSS shapes
+========================================
+
+You can include some :bordeaux:`CSS shapes` ...
+
+----
+
+:data-y: r2000
+
+Look at those...
+
+Simple tiny :bordeaux:`shapes` !
+========================================
+
 .. raw:: html
 
-    An CSS triangle pointing down:
+    A triangle pointing down:
     <span class="delta_down"></span><br>
-    An CSS triangle pointing up:
+    A triangle pointing up:
     <span class="delta_up"></span><br>
-    An CSS triangle right up:
+    A triangle right up:
     <span class="delta_right"></span><br>
-    An CSS Circle:
+    A  Circle:
+    <span class="circle"></span><br>
+
+----
+
+:data-y: r2000
+
+Let's see the trick...
+
+CSS code example:
+========================================
+
+.. code:: CSS
+
+    span.circle {
+         border-radius: 50%;
+         width: 20px;
+         height: 20px;
+         display: inline-block;
+         background-color: #a4a4a4;
+         position: relative;
+         top: 2px;
+    }
+
+Html code in the rst file
+========================================
+
+.. code:: html
+
+    A triangle pointing down:
+    <span class="delta_down"></span><br>
+    A triangle pointing up:
+    <span class="delta_up"></span><br>
+    A triangle right up:
+    <span class="delta_right"></span><br>
+    A  Circle:
     <span class="circle"></span><br>
 

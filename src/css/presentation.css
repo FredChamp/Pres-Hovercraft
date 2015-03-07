@@ -80,23 +80,35 @@ video {
     border:1px solid #a4a4a4;
     border-radius:0px;
     position: relative;
-
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
 }
 
 #square-background {
     width: 900px;
     height: 600px;
     background: #e8e8e8;
-    border:1px solid #DDD;
+    border:1px solid #a4a4a4;
     border-radius:0px;
     position: relative;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+
+}
+
+#layer{
+    
 
 }
 
 /****** Text styles ******/
 
-.red {
-    color: red;
+.bordeaux {
+    color: #7e0035;
 }
 
 /* doesn't work... */
@@ -115,7 +127,7 @@ span.delta_right {
     height: 0;
     border-style: solid;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent #C0C0C0;
+    border-color: transparent transparent transparent #a4a4a4;
     font-size: 0;
     
     position: relative;
@@ -128,7 +140,7 @@ span.delta_down {
      height: 0;
      border-style: solid; /* dashed dashed; */
      border-width: 10px 10px 0;
-     border-color: #C0C0C0 transparent transparent;
+     border-color: #a4a4a4 transparent transparent;
      font-size: 0;
      
      position: relative;
@@ -147,7 +159,7 @@ span.delta_up {
     height: 0;
     border-style: solid; /* dashed dashed; */
     border-width: 0 10px 10px;
-    border-color: transparent transparent #C0C0C0;
+    border-color: transparent transparent #a4a4a4;
     font-size: 0;
     
     position: relative;
@@ -166,7 +178,7 @@ span.circle {
      width: 20px;
      height: 20px;
      display: inline-block;
-     background-color: #C0C0C0;
+     background-color: #a4a4a4;
      position: relative;
      top: 2px;
 }
