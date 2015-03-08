@@ -1,0 +1,226 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter);
+@import url(http://fonts.googleapis.com/css?family=Armata);
+
+
+/****** Global style ******/
+
+body {
+    background: #f2f2f2;
+    color: #a4a4a4;
+    font-family: 'Armata', sans-serif;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-family: 'Bitter' , serif;
+    font-weight: bold;
+    text-italic: none;
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Bitter', serif;
+}
+
+blockquote {
+    font-family: 'Bitter', serif;
+    font-style: italic;
+}
+
+/* hypertext link */ 
+a {
+    color: #a8a9aa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* emphase */
+em {
+    color: #7e0035;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+/****** Slide styles ******/
+
+#first_slide {
+    width: 900px;
+    height: 900px;
+    border:1px solid #a4a4a4;
+    border-radius: 500px;
+    text-align: center;
+}
+
+#circle-no-background {
+    width: 900px;
+    height: 900px;
+    border:1px solid #a4a4a4;
+    border-radius: 500px;
+    text-align: center;
+}
+
+#circle-background {
+    width: 900px;
+    height: 900px;
+    background: #e8e8e8;
+    border:1px solid #a4a4a4;
+    border-radius: 500px;
+    text-align: center;
+}
+
+#square-no-background {
+    width: 1000px;
+    height: 700px;
+    border:1px solid #a4a4a4;
+    border-radius:0px;
+    position: relative;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+#square-background {
+    width: 1000px;
+    height: 700px;
+    background: #e8e8e8;
+    border:1px solid #a4a4a4;
+    border-radius:0px;
+    position: relative;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+
+}
+
+#layer{
+    
+
+}
+
+/****** Text styles ******/
+
+.bordeaux {
+    color: #7e0035;
+}
+
+/* doesn't work... */
+.align-center {
+    text-align: center;
+} 
+
+.align-center {
+    text-align: center;
+} 
+
+/****** CSS shapes ******/
+
+span.delta_right {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #a4a4a4;
+    font-size: 0;
+    
+    position: relative;
+    top: -7px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+span.delta_left {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #a4a4a4 transparent transparent;
+    font-size: 0;
+    
+    position: relative;
+    top: -7px;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+
+}
+
+span.delta_down {
+     width: 0;
+     height: 0;
+     border-style: solid; /* dashed dashed; */
+     border-width: 10px 10px 0;
+     border-color: #a4a4a4 transparent transparent;
+     font-size: 0;
+     
+     position: relative;
+     top: -5px;
+     
+     margin-top: 0px;
+     margin-bottom: 10px;
+     margin-left: 0px;
+     margin-right: 10px;
+     
+     /*display: inline-block;
+     height: 0;
+     line-height: 0;
+     padding-top: 1px;
+     position: relative;
+     
+     width: 0; */
+}
+
+span.delta_up {
+    width: 0;
+    height: 0;
+    border-style: solid; /* dashed dashed; */
+    border-width: 0 10px 10px;
+    border-color: transparent transparent #a4a4a4;
+    font-size: 0;
+    
+    position: relative;
+    top: -10px;
+    
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    
+    /*display: inline-block;
+    height: 0;
+    line-height: 0;
+    padding-top: 1px;
+    position: relative;
+    top: -1px;
+    width: 0; */ 
+}
+
+span.circle {
+     border-radius: 50%;
+     width: 20px;
+     height: 20px;
+     display: inline-block;
+     background-color: #a4a4a4;
+     
+     position: relative;
+     top: 2px;
+     
+/*     margin-top: 10px;
+     margin-bottom: 10px;
+     margin-left: 0px;
+     margin-right: 10px;*/
+}
+
