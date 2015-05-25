@@ -5,10 +5,17 @@
 /****** Global style ******/
 
 body {
-    background: #f2f2f2;
+    background: #ffffff;
     color: #a4a4a4;
     font-family: 'Armata', sans-serif;
     font-size: 1.5em;
+/*    image: url('../media/ircad_grey.png') no-repeat top left;*/
+    
+    background:url('../media/ircad_grey.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 99% 99%; 
+    background-size: 115.5px 40px;
 }
 
 h1 {
@@ -17,10 +24,13 @@ h1 {
     text-italic: none;
     font-size: 2em;
     text-align: center;
+/*    image:url('../media/ircad_grey.png') no-repeat top left;*/
+    
 }
 
 h2 {
     font-family: 'Bitter', serif;
+    color: #27B57A;
 }
 
 blockquote {
@@ -47,7 +57,23 @@ video {
     margin: 0 auto;
 }
 
+/****** logo ******/
+
+.ircadlogo
+{
+height:80px;
+width:231px;
+background-image: url('../media/ircad_grey.png') no-repeat top left;
+}
+
+
 /****** Slide styles ******/
+
+/*div#first_slide
+{
+    content:url('../media/ircad_grey.png');
+
+}*/
 
 #first_slide {
     width: 900px;
@@ -55,6 +81,7 @@ video {
     border:1px solid #a4a4a4;
     border-radius: 500px;
     text-align: center;
+    
 }
 
 #circle-no-background {
@@ -107,8 +134,8 @@ video {
 
 /****** Text styles ******/
 
-.bordeaux {
-    color: #7e0035;
+.maincolor {
+    color: #27B57A;
 }
 
 /* doesn't work... */

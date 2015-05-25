@@ -1,12 +1,12 @@
 :title: Développement Android avancé
 :data-transition-duration: 1250
 :author: Frédéric CHAMP
-:description: test
+:description: JDEV20115
 :keywords: presentation
 :css: css/presentation.css
 :skip-help: true
 
-.. role:: bordeaux
+.. role:: maincolor
 
 ----
 
@@ -18,10 +18,10 @@
 |
 |
 
-Hovecraft presantation test
+Advanced Android Developement
 ========================================
 
-Testing and demo
+Next level with C++
 -------------------------
 
 **Frederic CHAMP**
@@ -44,7 +44,7 @@ Let's make some test :)
 Slide styles
 ========================================
 
-The difference with a classic presentation that's you can have different :bordeaux:`slide styles` ...
+The difference with a classic presentation that's you can have different :maincolor:`slide styles` ...
 
 ----
 
@@ -61,8 +61,7 @@ The difference with a classic presentation that's you can have different :bordea
 Look that !
 ========================================
 
-A :bordeaux:`circle` shape :)
------------------------------
+A :maincolor:`circle` shape :)
 
 ----
 
@@ -79,8 +78,7 @@ A :bordeaux:`circle` shape :)
 Look again !
 ========================================
 
-A :bordeaux:`circle` shape with :bordeaux:`background` :)
----------------------------------------------------------
+A :maincolor:`circle` shape with :maincolor:`background` :)
 
 ----
 
@@ -104,7 +102,7 @@ Ok, I have something for you... :)
 
 Do you like this ?
 
-A :bordeaux:`square` shaped slide ;)
+A :maincolor:`square` shaped slide ;)
 ========================================
 
 
@@ -120,8 +118,8 @@ A :bordeaux:`square` shaped slide ;)
 
 Or maybe you prefer this:
 
-A :bordeaux:`square` slide with :bordeaux:`background` ;)
-=========================================================
+A :maincolor:`square` slide with :maincolor:`background` ;)
+=============================================================
 
 ----
 
@@ -140,7 +138,7 @@ Let's add some pretty stuffs :)
 CSS shapes
 ========================================
 
-You can include some :bordeaux:`CSS shapes` ...
+You can include some :maincolor:`CSS shapes` ...
 
 ----
 
@@ -148,7 +146,7 @@ You can include some :bordeaux:`CSS shapes` ...
 
 Look at those...
 
-Simple tiny :bordeaux:`shapes` !
+Simple tiny :maincolor:`shapes` !
 ========================================
 
 .. raw:: html
