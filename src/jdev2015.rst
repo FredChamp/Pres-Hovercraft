@@ -6,10 +6,18 @@
 :css: css/presentation.css
 :skip-help: true
 
-.. role:: maincolor
-.. role:: bigbold
-.. role:: bigboldcolor
-.. role:: funnyfont
+.. role:: main-color
+.. role:: big-bold
+.. role:: bold-color
+.. role:: big-bold-color
+.. role:: funny-font
+
+.. role:: mail
+.. role:: git
+.. role:: twit
+
+.. role:: bullet-grey
+
 
 ----
 
@@ -24,7 +32,7 @@
 Advanced Android Development
 ========================================
 
-:maincolor:`Next level with C++`
+:main-color:`Next level with C++`
 ----------------------------------
 
 **Frederic CHAMP**
@@ -32,22 +40,56 @@ Advanced Android Development
 ----
 
 :data-x: r2000
+:data-scale: 1.5
 
-:funnyfont:`What are challenges ?`
-----------------------------------
+:funny-font:`Overview :`
+-----------------------------------
 
-- :bigbold:`Code` :bigboldcolor:`reuse`
-- :bigbold:`Developping` :bigboldcolor:`time`
-- :bigbold:`Easy to` :bigboldcolor:`maintain`
+:bullet-grey:`Accessible language:` :bold-color:`Java`
+
+:bullet-grey:`Easy for` :bold-color:`cross-platform` devlopment
+
+:bullet-grey:`Great and well documented` :bold-color:`Android Java API`
 
 ----
 
 :data-x: r2000
 
-:funnyfont:`Slide styles`
+:funny-font:`Contacts :`
+-----------------------------------
+
+.. this following lines insert a image among the text
+.. .. |test| image:: media/mail.png
+..           :width: 10%
+..           :align: bottom
+..
+.. .. |test| frederic.champ@ircad.fr
+..
+
+:mail:`frederic.champ@ircad.fr`
+:git:`github.com/FredChamp`
+:twit:`@frdChamp`
+
+
+----
+
+:data-x: r2000
+
+:funny-font:`What are challenges ?`
+-----------------------------------
+
+- :big-bold:`Code` :big-bold-color:`reuse`
+- :big-bold:`Developping` :big-bold-color:`time`
+- :big-bold:`Easy to` :big-bold-color:`maintain`
+
+----
+
+:data-x: r2000
+
+:funny-font:`Slide styles`
 --------------------------
 
-The difference with a classic presentation that's you can have different :maincolor:`slide styles` ...
+The difference with a classic presentation that's you can have different :main-color:`slide styles` ...
 
 ----
 
@@ -61,10 +103,10 @@ The difference with a classic presentation that's you can have different :mainco
 |
 |
 
-:funnyfont:`Look that !`
+:funny-font:`Look that !`
 --------------------------
 
-A :maincolor:`circle` shape :)
+A :main-color:`circle` shape :)
 
 ----
 
@@ -78,10 +120,10 @@ A :maincolor:`circle` shape :)
 |
 |
 
-:funnyfont:`Look again !`
+:funny-font:`Look again !`
 --------------------------
 
-A :maincolor:`circle` shape with :maincolor:`background` :)
+A :main-color:`circle` shape with :main-color:`background` :)
 
 ----
 
@@ -105,7 +147,7 @@ Ok, I have something for you... :)
 
 Do you like this ?
 
-A :maincolor:`square` shaped slide ;)
+A :main-color:`square` shaped slide ;)
 ========================================
 
 
@@ -121,7 +163,7 @@ A :maincolor:`square` shaped slide ;)
 
 Or maybe you prefer this:
 
-A :maincolor:`square` slide with :maincolor:`background` ;)
+A :main-color:`square` slide with :main-color:`background` ;)
 =============================================================
 
 ----
@@ -138,10 +180,10 @@ Let's add some pretty stuffs :)
 
 :data-y: r2000
 
-:funnyfont:`CSS shapes`
+:funny-font:`CSS shapes`
 ------------------------
 
-You can include some :maincolor:`CSS shapes` ...
+You can include some :main-color:`CSS shapes` ...
 
 ----
 
@@ -149,7 +191,7 @@ You can include some :maincolor:`CSS shapes` ...
 
 Look at those...
 
-Simple tiny :maincolor:`shapes` !
+Simple tiny :main-color:`shapes` !
 ========================================
 
 .. raw:: html
