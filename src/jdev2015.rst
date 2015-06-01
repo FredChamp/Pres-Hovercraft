@@ -40,7 +40,8 @@ Advanced Android Development
 ----
 
 :data-x: r2000
-:data-scale: 1.5
+
+.. :data-scale: 1.5
 
 :funny-font:`Overview :`
 -----------------------------------
