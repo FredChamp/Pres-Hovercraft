@@ -9,7 +9,7 @@
 
 body {
     
-    font-size: 1.75em;
+    font-size: 1.8em;
     font-family: 'Roboto', serif;
     color: #a4a4a4;
 
@@ -17,6 +17,10 @@ body {
     url('../media/android_thin_green.png') no-repeat fixed 1% 1%;
     background-size: 10% auto, 6% auto;
     background-color: #ffffff;
+}
+
+li {
+    line-height: 2;
 }
 
 h1 {
@@ -87,6 +91,33 @@ background-image: url('../media/ircad_grey.png') no-repeat top left;
     
 }
 
+#but_slide {
+    width: 300px;
+    height: 300px;
+    border:1px solid #a4a4a4;
+    border-radius: 400px;
+    text-align: center;
+    
+}
+
+#center_poster {
+    text-align: center;
+    
+}
+
+#dev_workflow{
+    width: 900px;
+    height: 900px;
+    border:1px solid #a4a4a4;
+    border-radius: 500px;
+    text-align: center;
+}
+
+#img_workflow{
+    padding-top: 1300px;
+    text-align: center;
+}
+
 #circle-no-background {
     width: 900px;
     height: 900px;
@@ -150,18 +181,22 @@ background-image: url('../media/ircad_grey.png') no-repeat top left;
 
 .big-bold {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.9em;
 }
 
 .big-bold-color {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.9em;
     color: #27B57A;   
 }
 
 .bold-color {
     font-weight: bold;
     color: #27B57A;   
+}
+
+.bold {
+    font-weight: bold;   
 }
 
 /* work with ' ..class:: align-center ' */
@@ -231,17 +266,20 @@ background-image: url('../media/ircad_grey.png') no-repeat top left;
     display: block;
 }
 
-.bullet_green {
+.bullet-green-bold {
 
     list-style-type: none;
     padding: 0px;
     margin: 0px;
     
-    background: url('../media/bullet_green.png') no-repeat 30px center; 
+    font-weight: bold;
+    color: #27B57A;
+    
+    background: url('../media/bullet_grey.png') no-repeat 30px center; 
     padding-left: 80px;
     padding-top: 5px; 
     padding-bottom: 5px;   
-    background-size: 6% auto;
+    background-size: auto 50%;
 }
 
 .bullet-grey {
@@ -259,6 +297,22 @@ background-image: url('../media/ircad_grey.png') no-repeat top left;
 /*    display: block;*/
 }
 
+.bullet-grey-bold {
+
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+        
+    color: #727272;
+    
+    background: url('../media/bullet_grey.png') no-repeat 30px center; 
+    padding-left: 80px;
+    padding-top: 5px; 
+    padding-bottom: 5px;   
+    background-size: auto 50%;
+    
+/*    display: block;*/
+}
 /****** CSS shapes ******/
 
 span.delta_right {
