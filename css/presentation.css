@@ -1,30 +1,47 @@
-@import url(http://fonts.googleapis.com/css?family=Bitter);
-@import url(http://fonts.googleapis.com/css?family=Armata);
+/*@import url(http://fonts.googleapis.com/css?family=Bitter);s*/
+/*@import url(http://fonts.googleapis.com/css?family=Armata);*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two);
 
 
 /****** Global style ******/
 
 body {
-    background: #f2f2f2;
+    
+    font-size: 1.8em;
+    font-family: 'Roboto', serif;
     color: #a4a4a4;
-    font-family: 'Armata', sans-serif;
-    font-size: 1.5em;
+
+    background:url('../media/ircad_grey.png') no-repeat fixed 99% 99%,
+    url('../media/android_thin_green.png') no-repeat fixed 1% 1%;
+    background-size: 10% auto, 6% auto;
+    background-color: #ffffff;
+}
+
+li {
+    line-height: 2;
 }
 
 h1 {
-    font-family: 'Bitter' , serif;
+/*    font-family: 'Bitter' , serif;*/
+    color: #727272;
     font-weight: bold;
-    text-italic: none;
     font-size: 2em;
-    text-align: center;
+/*    text-align: center;*/
+/*    image:url('../media/ircad_grey.png') no-repeat top left;*/
+    
 }
 
 h2 {
-    font-family: 'Bitter', serif;
+    font-family: 'Lobster Two', serif;
+    font-style: italic;
+    font-size: 1.25em;
+/*    color: #27B57A;*/
 }
 
 blockquote {
-    font-family: 'Bitter', serif;
+/*    font-family: 'Bitter', serif;*/
     font-style: italic;
 }
 
@@ -47,13 +64,57 @@ video {
     margin: 0 auto;
 }
 
+/****** logo ******/
+
+/*.ircadlogo
+{
+height:80px;
+width:231px;
+background-image: url('../media/ircad_grey.png') no-repeat top left;
+}*/
+
+
 /****** Slide styles ******/
+
+/*div#first_slide
+{
+    content:url('../media/ircad_grey.png');
+
+}*/
 
 #first_slide {
     width: 900px;
     height: 900px;
+    border:3px solid #27B57A;
+    border-radius: 500px;
+    text-align: center;
+    
+}
+
+#but_slide {
+    width: 300px;
+    height: 300px;
+    border:1px solid #a4a4a4;
+    border-radius: 400px;
+    text-align: center;
+    
+}
+
+#center_poster {
+    text-align: center;
+    
+}
+
+#dev_workflow{
+    width: 900px;
+    height: 900px;
     border:1px solid #a4a4a4;
     border-radius: 500px;
+    text-align: center;
+}
+
+#img_workflow{
+    padding-top: 1300px;
     text-align: center;
 }
 
@@ -75,8 +136,8 @@ video {
 }
 
 #square-no-background {
-    width: 1000px;
-    height: 700px;
+    width: 900px;
+    height: 600px;
     border:1px solid #a4a4a4;
     border-radius:0px;
     position: relative;
@@ -87,8 +148,8 @@ video {
 }
 
 #square-background {
-    width: 1000px;
-    height: 700px;
+    width: 900px;
+    height: 600px;
     background: #e8e8e8;
     border:1px solid #a4a4a4;
     border-radius:0px;
@@ -107,19 +168,151 @@ video {
 
 /****** Text styles ******/
 
-.bordeaux {
-    color: #7e0035;
+.main-color {
+    color: #27B57A;
 }
 
-/* doesn't work... */
+.funny-font{
+    
+    color: #727272;
+    font-family: 'Lobster Two', serif;
+    font-style: italic;
+}
+
+.big-bold {
+    font-weight: bold;
+    font-size: 1.9em;
+}
+
+.big-bold-color {
+    font-weight: bold;
+    font-size: 1.9em;
+    color: #27B57A;   
+}
+
+.bold-color {
+    font-weight: bold;
+    color: #27B57A;   
+}
+
+.bold {
+    font-weight: bold;   
+}
+
+/* work with ' ..class:: align-center ' */
 .align-center {
     text-align: center;
 } 
 
-.align-center {
-    text-align: center;
+.align-left {
+    text-align: left;
 } 
 
+.mail {
+
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    
+    font-weight: bold;
+    font-size: 1.5em;
+    
+    background: url('../media/mail.png') no-repeat 15% center; 
+    padding-left: 250px;
+    padding-top: 40px; 
+    padding-bottom: 40px;   
+    background-size: 10% auto; 
+    
+    display: block;
+}
+
+.git {
+/*    display : list-item;
+    list-style-image : url('../media/mail.png');*/
+
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    
+    font-weight: bold;
+    font-size: 1.5em;
+    
+    background: url('../media/github.png') no-repeat 15% center; 
+    padding-left: 250px;
+    padding-top: 40px; 
+    padding-bottom: 40px;   
+    background-size: 10% auto;
+    
+    display: block;
+}
+
+.twit {
+/*    display : list-item;
+    list-style-image : url('../media/mail.png');*/
+
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    
+    font-weight: bold;
+    font-size: 1.5em;
+    
+    background: url('../media/twitter.png') no-repeat 15% center; 
+    padding-left: 250px;
+    padding-top: 40px; 
+    padding-bottom: 40px;   
+    background-size: 10% auto;
+    
+    display: block;
+}
+
+.bullet-green-bold {
+
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    
+    font-weight: bold;
+    color: #27B57A;
+    
+    background: url('../media/bullet_grey.png') no-repeat 30px center; 
+    padding-left: 80px;
+    padding-top: 5px; 
+    padding-bottom: 5px;   
+    background-size: auto 50%;
+}
+
+.bullet-grey {
+
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    
+    background: url('../media/bullet_grey.png') no-repeat 30px center; 
+    padding-left: 80px;
+    padding-top: 5px; 
+    padding-bottom: 5px;   
+    background-size: auto 50%;
+    
+/*    display: block;*/
+}
+
+.bullet-grey-bold {
+
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+        
+    color: #727272;
+    
+    background: url('../media/bullet_grey.png') no-repeat 30px center; 
+    padding-left: 80px;
+    padding-top: 5px; 
+    padding-bottom: 5px;   
+    background-size: auto 50%;
+    
+/*    display: block;*/
+}
 /****** CSS shapes ******/
 
 span.delta_right {
@@ -132,29 +325,6 @@ span.delta_right {
     
     position: relative;
     top: -7px;
-    
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-
-}
-
-span.delta_left {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent #a4a4a4 transparent transparent;
-    font-size: 0;
-    
-    position: relative;
-    top: -7px;
-    
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 0px;
-    margin-right: 10px;
 
 }
 
@@ -168,12 +338,6 @@ span.delta_down {
      
      position: relative;
      top: -5px;
-     
-     margin-top: 0px;
-     margin-bottom: 10px;
-     margin-left: 0px;
-     margin-right: 10px;
-     
      /*display: inline-block;
      height: 0;
      line-height: 0;
@@ -193,12 +357,6 @@ span.delta_up {
     
     position: relative;
     top: -10px;
-    
-    margin-top: 0px;
-    margin-bottom: 10px;
-    margin-left: 0px;
-    margin-right: 10px;
-    
     /*display: inline-block;
     height: 0;
     line-height: 0;
@@ -214,13 +372,7 @@ span.circle {
      height: 20px;
      display: inline-block;
      background-color: #a4a4a4;
-     
      position: relative;
      top: 2px;
-     
-/*     margin-top: 10px;
-     margin-bottom: 10px;
-     margin-left: 0px;
-     margin-right: 10px;*/
 }
 
